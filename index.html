@@ -27,10 +27,10 @@
                         <p>Area (A) = 0.5 x b x h</p>
                         <p>
                             <!-- triangle base -->
-                            <input type="text" class="border text-xl px-3 w-24 bg-gray-200" placeholder="base" name=""
+                            <input type="number" class="border text-xl px-3 w-24 bg-gray-200" placeholder="base" name=""
                                 id="triangle-base"> <span class="ml-2">cm</span>
                             <!-- triangle height -->
-                            <input type="text" class="border ml-4 text-xl px-3 w-24 bg-gray-200" placeholder="height"
+                            <input type="number" class="border ml-4 text-xl px-3 w-24 bg-gray-200" placeholder="height"
                                 name="" id="triangle-height"> <span class="ml-2">cm</span>
                         </p>
 
@@ -98,8 +98,8 @@
                         <p>Area (A) = πab </p>
                         <p>
                             <!--ellipse first radius -->
-                            <input type="text" class="border text-xl px-3 w-24 bg-gray-200" placeholder="large"
-                                name="" id="ellipse-major-radius"> <span class="ml-2">cm</span>
+                            <input type="text" class="border text-xl px-3 w-24 bg-gray-200" placeholder="large" name=""
+                                id="ellipse-major-radius"> <span class="ml-2">cm</span>
                             <!--ellipse 2nd radius -->
                             <input type="text" class="border ml-4 text-xl px-3 w-24 bg-gray-200" placeholder="short"
                                 name="" id="ellipse-minor-radius"> <span class=" ml-2">cm</span>
@@ -140,7 +140,9 @@
             <!--Area calculator -->
             <div class="w-[400px]">
                 <div class="text-4xl">Area Calculator</div>
-
+                <div id="calculation-entry">
+                    
+                </div>
             </div>
         </div>
     </main>
